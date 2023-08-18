@@ -1,0 +1,48 @@
+.from-box{
+    width: 50%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px,60px,70px;
+    text-align: center;
+}
+ 
+.from-box h1{
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: blue;
+    position: relative;
+}
+
+.input-field{
+    background-color: rgb(171, 233, 212);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i{
+    margin-left: 15px;
+}
+
+.btn-field{
+    flex-basis: 48%;
+    color:#fff;
+     height: 40px;
+     border-radius: 20px;
+     border: 0;
+     outline: 0;
+     cursor: pointer;
+     
+}
